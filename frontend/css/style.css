@@ -1,0 +1,28 @@
+.groupList button{
+background-color:black;
+color: white;
+font-size: 1.3em; 
+}
+
+.btn-group-vertical{
+    width:100%;
+}
+.item img{
+	margin-bottom: 0px;
+}
+
+.carousel-caption hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.carousel-caption p{
+	font-size: 1.2em;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    margin-left: auto;
+    margin-right: auto;
+    }
