@@ -24,7 +24,7 @@ echo plugins_url('../lib/js/bootstrap.min.js', __file__); ?>"></script>
  </br>
 <div ng-app="sortableApp" ng-controller="sortableController" class="row">
   
- <div class="col-md-4">
+ <div class="col-md-6">
  <button class="btn btn-success" ng-click="add()">Aggiungi slide</button>
     <ul ui-sortable="sortableOptions" ng-model="list">
       <li ng-repeat="item in list">
@@ -107,10 +107,10 @@ echo plugins_url('../lib/js/bootstrap.min.js', __file__); ?>"></script>
           </li>
           </ul>
 </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <button class="btn btn-primary" ng-click="salva()">Salva i dati</button>
     </div>
-    <div class="col-md-4"></div>
+    <div class="col-md-3"></div>
     
 </div>
 
