@@ -25,7 +25,7 @@ add_action( 'wp_ajax_persisti_coccoslider', 'persisti_coccoSlider' );
 
 function coccoslider_menu(  ) { 
 
-  add_menu_page( 'cocco slider', 'cocco slider', 'manage_options', 'custom_plugin', 'custom_options_coccoslider' );
+  add_menu_page( 'cocco slider', 'cocco slider', 'manage_options', 'cocco_slider', 'custom_options_coccoslider' );
 }
 
 function remove_footer_admin () 
