@@ -2,7 +2,7 @@
 
 /*
   Plugin Name: cocco slider
-  Description: Slider di prova per Dplace.
+  Description: Slider a scopo didattico.
   Author: dado
   Version: 1.0
  */
